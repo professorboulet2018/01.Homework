@@ -1,0 +1,62 @@
+
+var states = [	
+    {no:1  ,population:37253956  ,state:"California"},		
+    {no:2  ,population:25145561  ,state:"Texas"},		
+    {no:3  ,population:19378102  ,state:"New York"},		
+    {no:4  ,population:18801310  ,state:"Florida"},		
+    {no:5  ,population:12830632  ,state:"Illinois"},		
+    {no:6  ,population:12702379  ,state:"Pennsylvania"},		
+    {no:7  ,population:11536504  ,state:"Ohio"},		
+    {no:8  ,population:9883640  ,state:"Michigan"},		
+    {no:9  ,population:9687653  ,state:"Georgia"},		
+    {no:10  ,population:9535483  ,state:"North Carolina"},		
+    {no:11  ,population:8791894  ,state:"New Jersey"},		
+    {no:12  ,population:8001024  ,state:"Virginia"},		
+    {no:13  ,population:6724540  ,state:"Washington"},		
+    {no:14  ,population:6547629  ,state:"Massachusetts"},		
+    {no:15  ,population:6483802  ,state:"Indiana"},		
+    {no:16  ,population:6392017  ,state:"Arizona"},		
+    {no:17  ,population:6346105  ,state:"Tennessee"},		
+    {no:18  ,population:5988927  ,state:"Missouri"},		
+    {no:19  ,population:5773552  ,state:"Maryland"},		
+    {no:20  ,population:5686986  ,state:"Wisconsin"},		
+    {no:21  ,population:5303925  ,state:"Minnesota"},		
+    {no:22  ,population:5029196  ,state:"Colorado"},		
+    {no:23  ,population:4779736  ,state:"Alabama"},		
+    {no:24  ,population:4625364  ,state:"South Carolina"},		
+    {no:25  ,population:4533372  ,state:"Louisiana"},		
+    {no:26  ,population:4339367  ,state:"Kentucky"},		
+    {no:27  ,population:3831074  ,state:"Oregon"},		
+    {no:28  ,population:3751351  ,state:"Oklahoma"},		
+    {no:29  ,population:3574097  ,state:"Connecticut"},		
+    {no:30  ,population:3046355  ,state:"Iowa"},		
+    {no:31  ,population:2967297  ,state:"Mississippi"},		
+    {no:32  ,population:2915918  ,state:"Arkansas"},		
+    {no:33  ,population:2853118  ,state:"Kansas"},		
+    {no:34  ,population:2763885  ,state:"Utah"},		
+    {no:35  ,population:2700551  ,state:"Nevada"},		
+    {no:36  ,population:2059179  ,state:"New Mexico"},		
+    {no:37  ,population:1852994  ,state:"West Virginia"},		
+    {no:38  ,population:1826341  ,state:"Nebraska"},		
+    {no:39  ,population:1567582  ,state:"Idaho"},		
+    {no:40  ,population:1360301  ,state:"Hawaii"},		
+    {no:41  ,population:1328361  ,state:"Maine"},		
+    {no:42  ,population:1316470  ,state:"New Hampshire"},		
+    {no:43  ,population:1052567  ,state:"Rhode Island"},		
+    {no:44  ,population:989415  ,state:"Montana"},		
+    {no:45  ,population:897934  ,state:"Delaware"},		
+    {no:46  ,population:814180  ,state:"South Dakota"},		
+    {no:47  ,population:710231  ,state:"Alaska"},		
+    {no:48  ,population:672591  ,state:"North Dakota"},		
+    {no:49  ,population:625741  ,state:"Vermont"},		
+    {no:50  ,population:601723  ,state:"Washington, D. C."},		
+    {no:51  ,population:563626  ,state:"Wyoming"},		
+];
+
+states.forEach( row => {
+    if (row.no <= 10)
+        console.log(row);
+});
+
+
+
