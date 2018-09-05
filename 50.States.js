@@ -54,7 +54,7 @@ var states = [
 ];
 
 states.forEach( row => {
-    if (row.no <= 10)
+    if (row.no <= 20)
         console.log(row);
 });
 
